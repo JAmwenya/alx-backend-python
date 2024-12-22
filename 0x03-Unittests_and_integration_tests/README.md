@@ -1,1 +1,1 @@
-This directory contains problems and solutions on creating unittests.
+This directory contains problems and solutions on creating unittests and integration tests.
