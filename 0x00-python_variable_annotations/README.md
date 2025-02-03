@@ -1,0 +1,1 @@
+this directory contains solutions on python variable annotations
