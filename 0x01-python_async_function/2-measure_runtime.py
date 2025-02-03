@@ -7,7 +7,8 @@ import asyncio
 import time
 import importlib
 
-wait_n  = importlib.import_module('1-concurrent_coroutines').wait_n
+wait_n = importlib.import_module('1-concurrent_coroutines').wait_n
+
 
 def measure_time(n: int, max_delay: int) -> float:
     """
