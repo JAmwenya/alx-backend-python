@@ -13,7 +13,7 @@ wait_random = importlib.import_module("0-basic_async_syntax").wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
-    Executes wait_random n times and returns the list of delays in ascending order.
+    Executes wait_random n times & returns list of delays in ascending order.
     """
     tasks = [wait_random(max_delay) for _ in range(n)]
     return await asyncio.gather(*tasks)
